@@ -12,6 +12,12 @@
     - interest : software
 
 ## 2. 프로젝트 소개
+    - The goal of this project is to build team introduction page using git branch
 
 
 ## 3. 팀원 역할
+    - Kim Byungchul
+        - make README.md
+        
+    - Kim Geonho
+        - make index.html
