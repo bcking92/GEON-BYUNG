@@ -7,7 +7,7 @@
     - hobby : travel 
     - interest : web, data visualization
 - Kim Geonho
-    - Major : Machanical Engineering, art & technology
+    - Major : Mechanical Engineering, art & technology
     - hobby : bass guitar
     - interest : software
 
