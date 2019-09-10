@@ -7,8 +7,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>건병🐤</title>
   <style>
-    h1, h2 {font-family: 'Noto Sans KR', sans-serif;}
-  
+    h1,
+    h2 {
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    ul {
+      list-style-type: none;
+    }
   </style>
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -23,8 +28,53 @@
 
     <h3>1. 팀원 소개</h3>
     <ul class="list-group">
-      <li class="list-group-item small">김병철: 산업공학 / 여행 / web, data visualization</li>
-      <li class="list-group-item small">김건호: 기계공학 | Art&Technology / 베이스기타 / SW</li>
+      <li class="list-group-item">
+        <button class="btn text" type="button" data-toggle="collapse" data-target="#toggler1"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          🐿️ 김병철: 산업공학 / Web, Data Visualization
+      </li>
+      <div class="pos-f-t bd-callout bd-callout-info">
+        <div class="collapse" id="toggler1">
+          <div class="bg-dark p-4">
+            <div class="row">
+              <span class="col-sm-12 col-md-8 col-lg-9 text-light mb-3">
+                <h5 class="d-block text-white h4">김병철</h5>
+                <ul class="p-0">
+                  <li><strong>전공</strong> 산업공학</li>
+                  <li><strong>취미</strong> 여행</li>
+                  <li><strong>관심분야</strong> Web, Data Visualization</li>
+                  <li><strong>github</strong> <a class="text-decoration-none text-white" href="https://github.com/bcking92">https://github.com/bcking92</a></li>
+                </ul>
+              </span>
+              <span class="col-sm-12 col-md-4 col-lg-3 mb-3"><img class="img-fluid" src="https://avatars2.githubusercontent.com/u/52652888?s=400&v=4"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <li class="list-group-item">
+        <button class="btn text" type="button" data-toggle="collapse" data-target="#toggler2"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          🐧 김건호: 기계공학 | Art&Technology / Web
+      </li>
+      <div class="pos-f-t">
+        <div class="collapse" id="toggler2">
+          <div class="bg-dark p-4">
+              <div class="row">
+                  <span class="col-sm-12 col-md-8 col-lg-9 text-light mb-3">
+                    <h5 class="d-block text-white h4">김건호</h5>
+                    <ul class="p-0">
+                      <li><strong>전공</strong> 기계공학, Art&Technology</li>
+                      <li><strong>취미</strong> 베이스기타</li>
+                      <li><strong>관심분야</strong> Web</li>
+                      <li><strong>github</strong> <a class="text-decoration-none text-white" href="https://github.com/ghleokim">https://github.com/ghleokim</a></li>
+                    </ul>
+                  </span>
+                  <span class="col-sm-12 col-md-4 col-lg-3 mb-3"><img class="img-fluid" src="https://avatars2.githubusercontent.com/u/52501513?s=460&v=4"></span>
+                </div>
+          </div>
+        </div>
+      </div>
+
     </ul>
   </div>
 
@@ -38,7 +88,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  
+
 </body>
 
 </html>
